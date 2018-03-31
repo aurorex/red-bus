@@ -100,3 +100,16 @@
 .medios img {
     width: 40%;
 }
+.item-prin.prin{
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.item-prin.contac, .item-prin.logo {
+    width: 50%;
+}
+.seleccion {
+    margin-top: 2%;
+}

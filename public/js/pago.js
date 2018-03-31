@@ -1,12 +1,17 @@
 $(document).ready(function() {
   // SLIDER 
-  $(function() {   
+  $(function() { 
     $('.slider').slick({
+      lazyLoad: 'ondemand',
+      slidesToShow: 4,
+      slidesToScroll: 1
+    });  
+    /*$('.slider').slick({
       slidesToShow: 0,
       slidesToScroll: 0,
       autoplay: false,
     // autoplaySpeed: 2000,
-    });
+    });*/
   });
 
 
