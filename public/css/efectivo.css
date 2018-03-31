@@ -31,6 +31,9 @@
 .carousel.slide {
     outline: 1px solid blue;
 }
+.cont-slider {
+    margin-top: 5%;
+}
 .carousel-item {
     outline:  1px solid red;
     width: 50%;
@@ -40,10 +43,6 @@
     outline: 1px solid blue;
 }
 
-
-.cont-slider {
-    background: ;
-}
 .slick-next::before {
     content: "→";
     color: rgb(224, 170, 0);
@@ -56,13 +55,15 @@
 }
 .slider.item {
     outline: 1px solid red;
-   
+
     background: tomato;
 }
 .item img{
-    outline:  1px solid blue;
-    width: 100%;
-    padding: 4%;
+    
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
  /*.item.slick-slide.slick-current{
      margin:0.6%;
@@ -71,3 +72,31 @@
  h4 {
      color: rgb(224, 170, 0);
  }
+ .sli-item {
+    display: inline-block;
+}
+.instrucciones h4 {
+    margin-top: 4%;
+}
+/*----BOTON--*/
+
+.cont-btn {
+    width: 100%;
+    margin-top: 5%;
+}
+.boton-red {
+    width: 100%;
+    border-radius: 12px;
+}
+/*-- VIA DE COMUNICACION --*/
+
+.medios {
+    margin-top: 5%;
+}
+.medios span {
+    font-weight: 500;
+    color: rgb(224, 170, 0);
+}
+.medios img {
+    width: 40%;
+}
