@@ -57,6 +57,20 @@ Actividades:
 
 * Recolección de datos de las respuestas dadas en la encuesta.
 
+![Resultado de la Encuesta](public/assets/images/results-survey.png)
+
+* Conslusion de la encuesta:
+
+Según datos recolectados en la encuesta, el 72.4% de los usuarios prefieren realizar su compra de boleto de viaje de manera presencial, mientras que el 27.6% de los usuarios prefiere hacerlo de manera online.
+Entonces, ¿Qué motivos influyen en la desición de los usuarios para optar comprar de manera presencial y no, de manera online?.
+Bueno, el 52.4% indica que se siente más seguro/a de esta manera, y el indicador siguiente a esto es que el 14.3% tiene poca confianza de registrar sus datos.
+
+De acuerdo a esto, se puede definir los siguientes **puntos de vista del usuario** para comprar por internet, que son:
+
+* Seguridad y protección de datos bancarios.
+* Una interfaz amigable, sencilla y fácil de entender.
+* Realizar pagos mediante PagoEfectivo, para no poner su información bancaria.
+
 ### B. Síntesis y Definición.
 
 Actividades:
@@ -100,7 +114,7 @@ Actividades:
 
 [Ver presentación del prototipo final]().
 
-# Aplicando la investigación en la vista de la pasarela de pago **Pago efectivo**
+# Herramientas utilizadas en el proyecto:
 
-En esta etapa se pasa a la maquetación y añadiendole funcionalidad de la página.
-
+* Figma.
+* Marvel.
