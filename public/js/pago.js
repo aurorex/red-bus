@@ -1,0 +1,1 @@
+$('slidesToShow').slick('slidesToScroll') ;

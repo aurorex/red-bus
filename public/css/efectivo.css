@@ -1,0 +1,20 @@
+
+
+
+.item {
+    text-align: center;
+}
+.one {
+    background: rgb(224, 170, 0);
+    color: #fff;
+}
+.two {
+    background: rgb(246, 244, 244);
+}
+.thre {
+    background: rgb(243, 206, 121);
+} 
+.medios-pago {
+    margin-top: 2%;
+    border-radius: 5px;
+}
