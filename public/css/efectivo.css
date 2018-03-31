@@ -1,6 +1,15 @@
 
-
-
+.logo-header img {
+    width: 200px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(224, 170, 0);
+    background-color: #fff;
+    border-color: rgb(224, 170, 0) rgb(224, 170, 0) rgb(224, 170, 0);
+}
+.nav-tabs {
+    border-bottom: 1px solid rgb(224, 170, 0);
+}
 .item {
     text-align: center;
 }
@@ -15,7 +24,7 @@
     background: rgb(243, 206, 121);
 } 
 .medios-pago {
-    margin-top: 2%;
+    margin-top: 1%;
     border-radius: 5px;
 }
 .imagen{
@@ -91,7 +100,7 @@
 /*-- VIA DE COMUNICACION --*/
 
 .medios {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .medios span {
     font-weight: 500;
@@ -111,5 +120,5 @@
     width: 50%;
 }
 .seleccion {
-    margin-top: 2%;
+    margin-top: 1%;
 }
