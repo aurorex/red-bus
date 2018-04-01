@@ -9,10 +9,10 @@
   position: relative;
   top: 1em;
   left: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 .pay-code-box{
-  margin-top: 2em;
+  margin-top: 1.5em;
   outline: 0.7px solid rgb(90, 90, 90);
 }
 .p-t{
@@ -36,8 +36,9 @@
 }
 /**/
 .img-icon{
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
+  margin-right: 0.7em;
 }
 /**/
 .icon-logo-pagoefectivo{
