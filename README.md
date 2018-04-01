@@ -95,26 +95,9 @@ Actividades:
 
 3. Realización del Storyboard
 
-
-### D. Prototipado.
-
-Actividades:
-
-1. Realización del prototipo.
-
-### E. User Testing
-
-Actividades: 
-
-1. Realización del testing.
-
-2. Feedback de usuarios.
-
 ### Presentación final.
 
-[Ver presentación del prototipo final]().
 
 # Herramientas utilizadas en el proyecto:
 
 * Figma.
-* Marvel.

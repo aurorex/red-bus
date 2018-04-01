@@ -11,10 +11,44 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>hola mundo</h1>
+    <header>
+      <img class="logo-img" src="../public/assets/images/logo-pagoefectivo.png" alt="Logo-PagoEfectivo">
+    </header>
+    <main>
+      <div class="container">
+        <ul class="nav nav-tabs text-warning">
+          <li class="active"><a class="text-warning" data-toggle="tab" href="#home">Banca por internet</a></li>
+          <li><a class="text-warning" data-toggle="tab" href="#menu1">Pago por Efectivo</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <div class="container">
+              <div class="row justify-content-sm-center">
+                <div class="col col-xs-4">
+                  <p>Código de pago</p>
+                  <p>9125682</p>
+                </div>
+                <div class="col col-xs-4">
+                  <p>TOTAL</p>
+                  <p>S/. 140.00</p>
+                </div>
+                <div class="col col-xs-4">
+                  <p>Tu orden expirará</p>
+                  <p>23 Feb - 1:12pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Menu 1</h3>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- enlaces para darle dinamismo a la página -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
