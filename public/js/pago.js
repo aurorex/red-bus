@@ -1,4 +1,14 @@
 $(document).ready(function() {
+  // imprimir pagina
+  let imp = $('#imprimir');
+  $('#imprimir').on('click', function() {
+    if (window.print != null) { 
+      window.print(); 
+    } else { 
+      alert('No tienes habilitada esta opción en el naveador.'); 
+    } 
+  });
+
   // SLIDER 
   $(function() { 
     $('.slider').slick({
@@ -6,14 +16,14 @@ $(document).ready(function() {
       slidesToShow: 4,
       slidesToScroll: 1
     });  
-    /*$('.slider').slick({
+    /* $('.slider').slick({
       slidesToShow: 0,
       slidesToScroll: 0,
       autoplay: false,
     // autoplaySpeed: 2000,
     });*/
   });
-
+ 
 
   const dataLogo = [
     {
@@ -41,8 +51,6 @@ $(document).ready(function() {
 `;
 
   function imagenes(dataLogo) {
-  
-    
     const contPadre = $('.slider');
     contPadre.append(datos);
   }
