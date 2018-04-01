@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Bus</title>
     <!-- enlaces para los estilos de la página -->
-    <link href="https://fonts.googleapis.com/css?family=Kavivanar|Noto+Sans|Nunito|Open+Sans+Condensed:300|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
-    <link href="https://file.myfontastic.com/xLNFR3UQF2rxkSBgDCxx2C/icons.css" rel="stylesheet">    
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar|Noto+Sans|Nunito|Open+Sans+Condensed:300|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://file.myfontastic.com/xLNFR3UQF2rxkSBgDCxx2C/icons.css" rel="stylesheet">
+    <!-- carousel styles slick -->    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- carpeta css -->
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -22,20 +26,32 @@
         </ul>
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
-            <div class="container">
+            <div class="container pay-code-box">
               <div class="row justify-content-sm-center">
-                <div class="col col-xs-4">
-                  <p>Código de pago</p>
-                  <p>9125682</p>
+                <div class="col col-xs-4 bg-pay-box rounded-left text-center">
+                  <p class="text-xs p-t">Código de pago</p>
+                  <p class="text-number">9125682</p>
                 </div>
-                <div class="col col-xs-4">
-                  <p>TOTAL</p>
+                <div class="col col-xs-4 bg-total-box text-center">
+                  <p class="p-t">TOTAL</p>
                   <p>S/. 140.00</p>
                 </div>
-                <div class="col col-xs-4">
-                  <p>Tu orden expirará</p>
-                  <p>23 Feb - 1:12pm</p>
+                <div class="col col-xs-4 bg-order-box text-center">
+                  <p class="text-xs">Tu orden expirará</p>
+                  <p class="text-xs">23 Feb - 1:12pm</p>
                 </div>
+              </div>
+            </div>
+            <p>Selecciona donde pagar: </p>
+            <div class="multiple-items">
+              <div>
+                <img class="img-icon" src="../public/assets/images/bcp-logo.png" alt="">
+              </div>
+              <div>
+                <img class="img-icon" src="../public/assets/images/bbva-logo.png" alt="">
+              </div>
+              <div>
+                <img class="img-icon" src="../public/assets/images/logo-interbank.jpg" alt="">
               </div>
             </div>
           </div>
@@ -49,6 +65,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- carousel slick -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- carpeta js -->
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
