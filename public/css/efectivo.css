@@ -123,3 +123,42 @@
 .seleccion {
     margin-top: 1%;
 }
+/*--- MODAL ---*/
+
+.cont-redbus-img {
+  
+}
+.cont-redbus-img img {
+    width: 110px;
+}
+.modal-content header {
+    text-align: left;
+    /*outline: 1px solid green;*/
+    padding: 1%;
+    background:rgba(201, 200, 199, 0.767) ; 
+}
+.title-redbus h3 {
+    /*color: rgb(189, 35, 35) ;*/
+    color: #000;
+
+}
+.modal  {
+    background:rgba(131, 131, 131, 0.068)  ;
+}
+.main-modal {
+    margin-top: 5%;
+}
+.cont-propuesta {
+    border: 1px solid rgb(204, 203, 203) ;
+    border-top: none;
+    border-right: none;
+    padding: 2%;
+    padding-left: 6%;
+}
+.cont-propuesta img {
+    width: 100%;
+}
+.modal main {
+    background: rgb(248, 248, 248);
+}
+
