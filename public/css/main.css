@@ -32,10 +32,24 @@
   background-color: #f6f4f4;
 }
 .bg-order-box{
-  background-color: #ffd87f
+  background-color: #ffd87f;
 }
 /**/
 .img-icon{
   width: 10%;
   height: 10%;
+}
+/**/
+.icon-logo-pagoefectivo{
+  width: 15%;
+  height: 15%;
+}
+.pt-1{
+  padding-top: 1em;
+}
+.text-s{
+  font-size: 0.9em;
+}
+.color-yellow{
+  color: #FFC90A;
 }
