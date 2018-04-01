@@ -1,4 +1,6 @@
 $(document).ready(function() {
+ 
+
   // imprimir pagina
   let imp = $('#imprimir');
   $('#imprimir').on('click', function() {
