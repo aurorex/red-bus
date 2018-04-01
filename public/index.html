@@ -6,8 +6,12 @@
     <title>Red Bus</title>
     <!-- enlaces para los estilos de la página -->
     <link href="https://fonts.googleapis.com/css?family=Kavivanar|Noto+Sans|Nunito|Open+Sans+Condensed:300|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
-    <link href="https://file.myfontastic.com/xLNFR3UQF2rxkSBgDCxx2C/icons.css" rel="stylesheet">    
+    <link href="https://file.myfontastic.com/xLNFR3UQF2rxkSBgDCxx2C/icons.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">   
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icon/style.css">
+    <link rel="stylesheet" href="css/efectivo.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -16,10 +20,10 @@
             <div class="row logo">
               <img src="assets/images/logo-pagoefectivo.svg"/> 
             </div>
-            <div class="col-xs-12 enlaces">
-              <a class="select" href="">Banca por internet</a>
-              <a href="">Pago en efectivo</a>
-            </div>
+            <ul class="nav nav-tabs enlaces">
+                <li class="active"><a data-toggle="tab" href="#banca_internet">Banca por internet</a></li>
+                <li><a data-toggle="tab" href="#pago_efectivo">Pago en efectivo</a></li>
+            </ul>
             <br/>
             <div class="row assets-pago">
               <div class="col-xs-4 text-center codigo">
@@ -44,61 +48,114 @@
         </header>
 
         <main>
-            <div class="container"> 
-                <div class="row content-img">
-                <p>Selecciona dónde quieres pagar</p>
-                <section>
-                    <div class="container">
-                        <h2>Carousel Example</h2>  
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                          <!-- Indicators -->
-                          <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                          </ol>
-                      
-                          <!-- Wrapper for slides -->
-                          <div class="carousel-inner">
-                            <div class="item active">
-                              <img src="la.jpg" alt="Los Angeles" style="width:100%;">
-                            </div>
-                      
-                            <div class="item">
-                              <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-                            </div>
-                          
-                            <div class="item">
-                              <img src="ny.jpg" alt="New york" style="width:100%;">
+            <div class="tab-content">
+                <!-- vista 'banca por internet' -->
+                <div id="banca_internet" class="tab-pane fade in active">
+                    <div class="container"> 
+                        <div class="row content-img">
+                        <p>Selecciona dónde quieres pagar</p>
+                        <section>
+                            <div class="container">
+                                <h2>Carousel Example</h2>  
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                  </ol>
+                                  <!-- Wrapper for slides -->
+                                  <div class="carousel-inner">
+                                    <div class="item active">
+                                      <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+                                    </div>
+                              
+                                    <div class="item">
+                                      <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                                    </div>
+                                  
+                                    <div class="item">
+                                      <img src="ny.jpg" alt="New york" style="width:100%;">
+                                    </div>
+                                  </div>
+                              
+                                  <!-- Left and right controls -->
+                                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                              
+                        </section>
+                        <img class="bancos-internet" src=""/>
+                        <p>Puedes pagar desde la web o App movil del banco</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 text-center enlace">
+                              <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=mqw01x"><img src="assets/images/icon-arrow.svg"/>Ir a banca por internet</a>
                             </div>
                           </div>
-                      
-                          <!-- Left and right controls -->
-                          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </div>
                       </div>
-                      
-                </section>
-                <img class="bancos-internet" src=""/>
-                <p>Puedes pagar desde la web o App movil del banco</p>
                 </div>
-              </div>
+
+                <!-- vista 'pago efectivo' -->
+                <div id="pago_efectivo" class="tab-pane fade">
+                    <div class="container">
+                        <div class="row seleccion" >
+                            <div>Selecciona donde quieres pagar</div>
+                        </div>
+                        <!--SLIDER-->
+                        <div class="cont-slider">
+                                <div class="slider" data-slick='{"slidesToShow": , "slidesToScroll": }'>
+                                    <div class="item  sli-item ">
+                                        <img src="https://btpucp.pucp.edu.pe/wp-content/uploads/2012/07/logo-oficial-412x120.png" alt="">
+                                        <span>bcp</span>
+                                    </div>
+                                    <div class="item  sli-item " >
+                                        <img src="https://eisaf.es/wp-content/uploads/2018/03/bbva_foro-500x150.png" alt="">
+                                        <span>BBVA</span>
+                                    </div>
+                                    <div class="item  sli-item " >
+                                        <img src="http://www.sinlimiteslatinoamerica.com/wp-content/uploads/2016/09/interbank.png" alt="">
+                                        <span>interbank</span>
+                                     </div>
+                                    <div class="item sli-item ">
+                                        <img src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="">
+                                        <span>banbif</span>
+                                    </div>
+                                    <div class="item sli-item ">
+                                        <img src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="">
+                                        <span>banbif</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="instrucciones">
+                                <h4>Instrucciones de Pago </h4>
+                                <div>
+                                    <div>Indica que vas a realizar un pago a la empresa PAGOEFECTIVO.</div>
+                                    <div>Indica el codigo CIP:{} y el importe a pagar en soles.</div>
+                                </div>
+                                <div id="cont-datos">
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 text-center enlace">
+                              <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=mqw01x"><img src="assets/images/icon-arrow.svg"/>Encuentra tu punto de pago</a>
+                            </div>
+                        </div>
+                  </div>
+               </div>
         </main>
     
         <footer>
             <div class="container">
-              <div class="row">
-                <div class="col-xs-12 text-center enlace">
-                  <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=mqw01x"><img src="assets/images/icon-arrow.svg"/>Ir a banca por internet</a>
-                </div>
-              </div>
               <div class="row referencies">
                 <div class="col-xs-12 download">Instrucciones vía
                   <img src="assets/images/icon-print.svg"/>
@@ -106,7 +163,7 @@
                 <div class="col-xs-7 mail">Ayuda:
                   <a href="mailto:contacto@redbus.pe">contacto@redbus.pe</a>
                 </div>
-                <div class="pull-right text-center col-xs-5 image">Pago vía
+                <div class="col-xs-5 image">Pago vía
                   <img class="img-responsive" src="assets/images/logo-pagoefectivo.svg"/>
                 </div>
               </div>
@@ -115,9 +172,12 @@
     
 
     <!-- enlaces para darle dinamismo a la página -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+    <script type="text/javascript" src="js/pago.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>

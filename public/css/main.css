@@ -5,7 +5,6 @@
 }
 
 /* estilos para el header */
-
 .logo img{
   width:130px ;
   height:40px ;
@@ -16,25 +15,44 @@
   border-bottom: 1px solid rgb(235, 203, 155);
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color:rgb(250, 217, 68);
+}
+
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid none;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs .active{
+  border-radius: 4px 4px 0 0;
+  border: 1px solid rgb(235, 203, 155);
+    border-top-color: rgb(235, 203, 155);
+    border-right-color: rgb(235, 203, 155);
+    border-bottom-color: rgb(235, 203, 155);
+    border-left-color: rgb(235, 203, 155);
+}
+
 .enlaces a{
-  padding: 5px 6px 5px 6px;
+  /* border-top: 1px solid rgb(235, 203, 155);
+  border-left: 1px solid rgb(235, 203, 155);
+  border-right: 1px solid rgb(235, 203, 155); */
   text-decoration: none;
   color: rgb(71, 70, 70);
   font-weight: bold;
   border-radius:5px;
-  font-size: 16px;
 }
 
-.enlaces .select{
-  border-top: 1px solid rgb(235, 203, 155);
-  border-left: 1px solid rgb(235, 203, 155);
-  border-right: 1px solid rgb(235, 203, 155);
+/*.enlaces .select{
+ 
   color:rgb(235, 214, 27);
-}
+} */
 
 .assets-pago{
   border-radius: 5px;
-  margin: 30px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .monto,.codigo,.time{
@@ -141,6 +159,9 @@
   margin:0 5px;
 }
 
+.mail{
+  margin:3px 0 0 0;
+}
 .mail a{
   display: inline;
   padding-left: 2px;
@@ -152,13 +173,16 @@
 }
 
 .image{
-  padding-right: 5px;
-  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .image img{
   display:inline-block;
-  width: 70px;
+  margin: 0 0 0 2px;
+  width: 62px;
   height: 30px;
 }
 
