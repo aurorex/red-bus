@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+/* estilos para el header */
+
+.logo img{
+  width:130px ;
+  height:40px ;
+  margin : 20px 15px 30px 15px;
+}
+
+.enlaces {
+  border-bottom: 1px solid rgb(235, 203, 155);
+}
+
+.enlaces a{
+  padding: 5px 6px 5px 6px;
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+  font-weight: bold;
+  border-radius:5px;
+  font-size: 16px;
+}
+
+.enlaces .select{
+  border-top: 1px solid rgb(235, 203, 155);
+  border-left: 1px solid rgb(235, 203, 155);
+  border-right: 1px solid rgb(235, 203, 155);
+  color:rgb(235, 214, 27);
+}
+
+.assets-pago{
+  border-radius: 5px;
+  margin: 30px 0 0 0;
+}
+
+.monto,.codigo,.time{
+  padding:5px 10px;
+  height: 50px;
+}
+
+.monto{
+  color:black;
+  background-color: rgb(228, 224, 224);
+  font-size: 12px;
+}
+
+.monto p{
+  margin: 5px 5px 0 5px;
+}
+
+.monto span{
+  margin: 5px 0;
+}
+
+.codigo{
+  background:rgb(250, 217, 68);
+  color : white;
+  font-size: 10px;
+  padding: 5px 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.codigo p{
+  margin: 2px 5px 0 5px;
+  font-size: 10px;
+}
+
+.codigo span{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.time{
+  background: rgb(235, 203, 155);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.time img{
+  width:20px ;
+  height:20px ;
+  margin: 0 3px 0 0 ;
+}
+
+.time .orden{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.time p{
+  margin: 5px 0 0 0 ;
+  font-size: 8px;
+  padding: 0;
+}
+
+.time span{
+  font-size: 10px;
+}
+
+/* estilos para el footer */
+.enlace{
+  background:rgb(131, 17, 83);
+  border-radius: 10px;
+  padding:5px 0;
+}
+
+.enlace a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.enlace img{
+  width:25px ;
+  height:25px ;
+  margin:0 5px;
+}
+
+.download{
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.download img{
+  width:45px;
+  height:45px;
+  border: 1px solid rgb(252, 238, 40);
+  border-radius:10px;
+  padding: 5px 10px;
+  margin:0 5px;
+}
+
+.mail a{
+  display: inline;
+  padding-left: 2px;
+  font-size: 14px;
+}
+
+.mail a{
+  color: rgb(253, 205, 46);
+}
+
+.image{
+  padding-right: 5px;
+  float: right;
+}
+
+.image img{
+  display:inline-block;
+  width: 70px;
+  height: 30px;
+}
+
+footer{
+  /* outline: 1px solid red; */
+  
+}
+
+@media (min-width:790px) { 
+  .referencies{
+    margin: 30px 0;
+  }
+  .download{
+    margin: 0;
+    float: left;
+  }
+  
+  .mail{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .image{
+    float: right;
+  }
+
+}
