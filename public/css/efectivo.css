@@ -1,0 +1,125 @@
+
+.logo-header img {
+    width: 200px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(224, 170, 0);
+    background-color: #fff;
+    border-color: rgb(224, 170, 0) rgb(224, 170, 0) rgb(224, 170, 0);
+}
+.nav-tabs {
+    border-bottom: 1px solid rgb(224, 170, 0);
+}
+.item {
+    text-align: center;
+}
+.one {
+    background: rgb(224, 170, 0);
+    color: #fff;
+}
+.two {
+    background: rgb(246, 244, 244);
+}
+.thre {
+    background: rgb(243, 206, 121);
+} 
+.medios-pago {
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.imagen{
+    margin:2%;
+    width: 200px;
+    float: left;
+}
+.carousel-inner {
+    outline: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel.slide {
+    outline: 1px solid blue;
+}
+.cont-slider {
+    margin-top: 5%;
+}
+.carousel-item {
+    outline:  1px solid red;
+    width: 50%;
+    float: left;
+}
+.carouselExampleControls {
+    outline: 1px solid blue;
+}
+
+.slick-next::before {
+    content: "→";
+    color: rgb(224, 170, 0);
+    /*background:rgb(224, 170, 0);*/
+}
+.slick-prev:before {
+    content: '←';
+    color: rgb(224, 170, 0);
+    /*background: rgb(224, 170, 0);*/
+}
+.slider.item {
+    outline: 1px solid red;
+
+    background: tomato;
+}
+.item img{
+    
+    width: 70%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ /*.item.slick-slide.slick-current{
+     margin:0.6%;
+     background: #fff;
+ }*/
+ h4 {
+     color: rgb(224, 170, 0);
+ }
+ .sli-item {
+    display: inline-block;
+    width: 50%;
+}
+.instrucciones h4 {
+    margin-top: 4%;
+}
+/*----BOTON--*/
+
+.cont-btn {
+    width: 100%;
+    margin-top: 5%;
+}
+.boton-red {
+    width: 100%;
+    border-radius: 12px;
+}
+/*-- VIA DE COMUNICACION --*/
+
+.medios {
+    margin-top: 3%;
+}
+.medios span {
+    font-weight: 500;
+    color: rgb(224, 170, 0);
+}
+.medios img {
+    width: 40%;
+}
+.item-prin.prin{
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.item-prin.contac, .item-prin.logo {
+    width: 50%;
+}
+.seleccion {
+    margin-top: 1%;
+}
