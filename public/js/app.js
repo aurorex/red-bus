@@ -39,8 +39,9 @@
                 //console.log(data[j].pay);
                 if(this.getAttribute('alt') === data[j].name){
                     console.log(data[j].pay);
-                    
-                    var node = document.createTextNode(data[j].pay)
+                    var node = document.createTextNode(data[j].pay);
+
+                    document.getElementById('pay-method').innerHTML = '';
                     document.getElementById('pay-method').appendChild(node);
                   
                 }
