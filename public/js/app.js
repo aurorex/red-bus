@@ -1,0 +1,59 @@
+(function() {
+    var data = [
+        {
+            name:'bcp',
+            pay:'Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > SOLES'
+            
+        },
+        {
+            name:'bbva',
+            pay:'Selecciona la opción Pago de servicios > De Instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES'
+            
+        },
+        {
+            name:'interbank',
+            pay:'Selecciona la opción Pago a Instituciones o Empresa > Empresas: PAGOEFECTIVO > Servicos: PAGOEFECTIVO'
+            
+        },
+        {
+            name:'scotiabank',
+            pay:'Selecciona la opción Pagos > Otras Instituciones > Busca por Empresa/Servicio: PAGOEFECTIVO > Selecciona: PAGOEFECTIVO SOLES'
+            
+        },
+        {
+            name:'banbif',
+            pay:'Selecciona la opción Pago de servicios > Busca por Empresa y escribe PAGOEFECTIVO > Selecciona la empresa PAGOEFECTIVO'
+            
+        },
+    ]
+
+    var card = document.getElementsByClassName('card');
+
+    // var payContainer = document.getElementsByClassName('pay-method');
+
+    for( var i = 0;i<card.length;i++) {
+        // console.log(card.length);
+        card[i].addEventListener('click', function() {
+            
+            for( var j = 0;j<data.length;j++) {
+                //console.log(data[j].pay);
+                if(this.getAttribute('alt') === data[j].name){
+                    console.log(data[j].pay);
+                    
+                    var node = document.createTextNode(data[j].pay)
+                    document.getElementById('pay-method').appendChild(node);
+                  
+                }
+            
+            }
+
+
+        })
+
+    }
+
+
+    
+    
+
+})();
