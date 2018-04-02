@@ -1,10 +1,8 @@
 $(document).ready(function() {
- 
-
   // imprimir pagina
   let imp = $('#imprimir');
   $('#imprimir').on('click', function() {
-    if (window.print != null) { 
+    if (window.print !== null) { 
       window.print(); 
     } else { 
       alert('No tienes habilitada esta opción en el naveador.'); 
@@ -13,17 +11,36 @@ $(document).ready(function() {
 
   // SLIDER 
   $(function() { 
-    $('.slider').slick({
-      lazyLoad: 'ondemand',
-      slidesToShow: 4,
-      slidesToScroll: 1
-    });  
     /* $('.slider').slick({
-      slidesToShow: 0,
-      slidesToScroll: 0,
-      autoplay: false,
+      lazyLoad: 'ondemand',
+      // slidesToShow: 4,
+      slidesToScroll: 1
+    }); */ 
+    $('.slider').slick({
+      // the magic
+      responsive: [{
+    
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          // infinite: true
+        }
+      }, {
+    
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          // dots: true
+        }
+    
+      }, {
+    
+        breakpoint: 300,
+        settings: 'unslick' // destroys slick
+    
+      }]
     // autoplaySpeed: 2000,
-    });*/
+    });
   });
  
 
