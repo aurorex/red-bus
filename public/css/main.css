@@ -36,19 +36,11 @@
 }
 
 .enlaces a{
-  /* border-top: 1px solid rgb(235, 203, 155);
-  border-left: 1px solid rgb(235, 203, 155);
-  border-right: 1px solid rgb(235, 203, 155); */
   text-decoration: none;
   color: rgb(71, 70, 70);
   font-weight: bold;
   border-radius:5px;
 }
-
-/*.enlaces .select{
- 
-  color:rgb(235, 214, 27);
-} */
 
 .assets-pago{
   border-radius: 5px;
@@ -125,6 +117,41 @@
 
 .time span{
   font-size: 10px;
+}
+
+/* estilos para el main */
+.paragraph{
+  color:gray;
+  margin: 20px 0 20px 0;
+
+}
+
+.carousel.slide{
+  outline: none;
+  border:none;
+}
+
+.options-pay{
+  list-style: none;
+}
+
+#pay-method{
+  display:inline;
+  text-align: justify;
+}
+
+.options-pay li>span{
+  border-radius: 50%;
+  border: 1px solid rgb(252, 238, 40);
+  color: rgb(252, 238, 40);
+  padding: 5px ;
+  margin: 0 3px;
+}
+
+.options-pay li{
+  margin: 20px 2px;
+  text-align: justify;
+  font-size:12px;
 }
 
 /* estilos para el footer */
