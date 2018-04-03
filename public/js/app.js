@@ -53,6 +53,24 @@
 
     }
 
+        // codigo para los enlaces
+        var bancaInternet = $('.banca-internet');
+        var pagoEfectivo = $('.pago-efectivo');
+        var containerBancaInternet = $('#banca_internet');
+        var containerPagoEfectivo = $('#pago_efectivo');
+    
+        
+        bancaInternet.on('click', function() {
+            containerBancaInternet.show();
+            containerPagoEfectivo.hide();
+        });
+    
+        pagoEfectivo.on('click', function() {
+            containerPagoEfectivo.show();
+            containerBancaInternet.hide();
+        });
+    
+
 
     
     

@@ -22,8 +22,8 @@
               <img src="assets/images/logo-pagoefectivo.svg"/> 
             </div>
             <ul class="nav nav-tabs enlaces ">
-                <li class="active "><a data-toggle="tab" href="#banca_internet">Banca por internet</a></li>
-                <li class=""><a data-toggle="tab" href="#pago_efectivo">Pago en efectivo</a></li>
+                <li class="active "><a class="banca-internet" data-toggle="tab" href="#banca_internet">Banca por internet</a></li>
+                <li class=""><a class="pago-efectivo" data-toggle="tab" href="#pago_efectivo">Pago en efectivo</a></li>
             </ul>
             <div class="row assets-pago">
               <div class="col-xs-4 text-center codigo">
@@ -48,9 +48,9 @@
         </header>
 
         <main>
-            <div class="tab-content">
+            <!-- <div class="tab-content"> -->
                 <!-- vista 'banca por internet' -->
-                <div id="banca_internet" class="tab-pane fade in active">
+                <div id="banca_internet">
                     <div class="container">
                       <div class="row">
                         <div class="col-xs-12">
@@ -103,7 +103,7 @@
                 </div>
 
                 <!-- vista 'pago efectivo' -->
-                <div id="pago_efectivo" class="tab-pane fade">
+                <div id="pago_efectivo" hidden>
                     <div class="container">
                         <div class=" seleccion" >
                             <div>Selecciona donde quieres pagar</div>
@@ -117,7 +117,7 @@
                                         <span>bcp</span>
                                     </div>
                                     <div class="item  sli-item " >
-                                        <img src="https://eisaf.es/wp-content/uploads/2018/03/bbva_foro-500x150.png" alt="bbva">
+                                        <img class="card-efectivo" src="https://eisaf.es/wp-content/uploads/2018/03/bbva_foro-500x150.png" alt="bbva">
                                         <span>BBVA</span>
                                     </div>
                                     <div class="item  sli-item " >
@@ -125,7 +125,7 @@
                                         <span>interbank</span>
                                      </div>
                                     <div class="item sli-item ">
-                                        <img src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="banbif">
+                                        <img class="card-efectivo" src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="banbif">
                                         <span>banbif</span>
                                     </div>
                                     <div class="item sli-item ">
@@ -142,7 +142,7 @@
                                     </div>
                                     <div class="item sli-item ">
                                         <img class="card-efectivo" src="http://www.agentekasnet.com/bitportal/Cms_Data/Sites/Kasnet/Files/Imagenes/Logo_Kasnet.png" alt="kasnet">
-                                        <span>westernunion</span>
+                                        <span>western union</span>
                                       <!--  <img class="card-efectivo" src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="full carga">
                                         <span>full carga</span>-->
                                       </div>
@@ -207,7 +207,7 @@
               </div>
               </div>
             
-            </div>
+            
         </main>
     
         <footer>

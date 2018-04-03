@@ -82,19 +82,44 @@ console.log(show);*/
   const dataEfectivo = [
     {
         name:'bcp',
-        premisa1:'Agentes BCP Brinda el código de empresa 02186',
-        premisa2:'Agencias BCP Costo adicional: S/.1.00.'
+        premisa1:'(*) Agentes BCP Brinda el código de empresa 02186',
+        premisa2:'(*) Agencias BCP Costo adicional: S/.1.00.'
     },
     {
         name:'interbank',
-        premisa1:'Agentes Interbank Brinda el siguiente código 273001',
-        premisa2:'Agencias Market de Interbank Costo adicional: S/.2.00.'
+        premisa1:'(*) Agentes Interbank Brinda el siguiente código 273001',
+        premisa2:'(*) Agencias Market de Interbank Costo adicional: S/.2.00.'
     },
     {
       name:'full carga',
-      premisa1:'Encuenta a FullCarga en Bodegas, Farmacias, cabinas de Internet y Locutorios.',
+      premisa1:'(*) Encuenta a FullCarga en Bodegas, Farmacias, cabinas de Internet y Locutorios.',
       premisa2:''
-    }   
+    }, 
+    {
+      name:'bbva',
+      premisa1:'',
+      premisa2:''
+    }, 
+    {
+      name:'banbif',
+      premisa1:'',
+      premisa2:''
+    },
+    {
+      name:'scotiabank',
+      premisa1:'',
+      premisa2:''
+    },
+    {
+      name:'wester union',
+      premisa1:'',
+      premisa2:''
+    },
+    {
+      name:'kasnet',
+      premisa1:'',
+      premisa2:''
+    }      
   ]
 
   var cardEfectivo = document.getElementsByClassName('card-efectivo');
@@ -111,8 +136,8 @@ console.log(show);*/
                 console.log(dataEfectivo[j].pay);
                 var element1 = document.createElement('p');
                 var element2 = document.createElement( 'p');
-                var node1 = document.createTextNode('(*)'+ dataEfectivo[j].premisa1);
-                var node2 = document.createTextNode('(*)' + dataEfectivo[j].premisa2);
+                var node1 = document.createTextNode(dataEfectivo[j].premisa1);
+                var node2 = document.createTextNode(dataEfectivo[j].premisa2);
 
                 element1.appendChild(node1);
                 element2.appendChild(node2);
