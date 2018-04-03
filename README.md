@@ -71,33 +71,19 @@ De acuerdo a esto, se puede definir los siguientes **puntos de vista del usuario
 * Una interfaz amigable, sencilla y fácil de entender.
 * Realizar pagos mediante PagoEfectivo, para no poner su información bancaria.
 
-### B. Síntesis y Definición.
-
-Actividades:
-
-1. Definir el problema:
-
-* Se utilizó como herramienta el Diagrama de Afinidad.
-
-    * Paso 1.- En post-its se colocó datos obtenidos en la encuesta y entrevista (como: cosas que le gustaria que tuviesen a la hora de comprar por internet, que problemas tuvieron al adquirir pasaje de bus)
-
-    * Paso 2: Separar en grupos por temas.
-
-    * Paso 3: Priorizar los temas que se obtuvieron desde el punto de vista del usuario que nos permitiran dar una propuesta para el diseño de la pasarela de pagos y diseño de la vista de impresión.
-
-### C. Ideación.
+### B. Ideación.
 
 1. Definición del user persona.
 
 ![user persona](public/assets/images/user-persona.png)
 
-2. Definición de los Problems Statements.
+# Producto: versión en inglés:
 
-3. Realización del Storyboard
-
-### Presentación final.
-
+[Ver producto en versión inglés](https://valeriavalles.github.io/RedBus-English/public/)
 
 # Herramientas utilizadas en el proyecto:
 
+* HTML.
+* CSS.
+* JavaScript.
 * Figma.
