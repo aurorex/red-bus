@@ -55,8 +55,6 @@ Actividades:
 
 * Recolección de datos de las respuestas dadas en la encuesta.
 
-![Resultado de la Encuesta](public/assets/images/results-survey.png)
-
 * Conclusión de la encuesta:
 
 Según datos recolectados en la encuesta, el 72.4% de los usuarios prefieren realizar su compra de boleto de viaje de manera presencial, mientras que el 27.6% de los usuarios prefiere hacerlo de manera online.
@@ -69,11 +67,13 @@ De acuerdo a esto, se puede definir los siguientes **puntos de vista del usuario
 * Una interfaz amigable, sencilla y fácil de entender.
 * Realizar pagos mediante PagoEfectivo, para no poner su información bancaria.
 
-### B. Ideación.
+[Ver resultados de la encuesta](https://drive.google.com/open?id=1ZoxueitllPX7No_306aBDTMeWlP7Pyj9)
 
-1. Definición del user persona.
+[Ver ideación del user persona de acuerdo a la investigación](https://drive.google.com/file/d/19zj-UTnMAKGVf0a3yVAXR3KD43TLImcR/view?usp=sharing)
 
-![user persona](public/assets/images/user-persona.png)
+# Propuesta de diseño para la vista de impresión
+
+![Ver vista de impresión](public/assets/img/pago.PNG)
 
 # Producto: versión en inglés:
 
