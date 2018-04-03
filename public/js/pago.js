@@ -8,39 +8,37 @@ $(document).ready(function() {
       alert('No tienes habilitada esta opción en el naveador.'); 
     } 
   });
+  
 
   // SLIDER 
-  $(function() { 
-    /* $('.slider').slick({
-      lazyLoad: 'ondemand',
-      // slidesToShow: 4,
-      slidesToScroll: 1
-    }); */ 
-    $('.slider').slick({
-      // the magic
-      responsive: [{
-    
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          // infinite: true
-        }
-      }, {
-    
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          // dots: true
-        }
-    
-      }, {
-    
-        breakpoint: 300,
-        settings: 'unslick' // destroys slick
-    
-      }]
-    // autoplaySpeed: 2000,
-    });
+  $('#slider').slick({
+
+    // normal options...
+    infinite: false,
+  
+    // the magic
+    responsive: [{
+  
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        infinite: true
+      }
+  
+    }, {
+  
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        // dots: true
+      }
+  
+    }, {
+  
+      breakpoint: 300,
+      // settings: "unslick" // destroys slick
+  
+    }]
   });
  
 
@@ -75,59 +73,52 @@ $(document).ready(function() {
   }
   imagenes();
   console.log(dataLogo);
-/* et show = dataLogo[0].url;
+  /* et show = dataLogo[0].url;
 console.log(show);*/
 
   // funcionalidad para mostrar informacion de pago
   const dataEfectivo = [
     {
-        name:'bcp',
-        premisa1:'Agentes BCP Brinda el código de empresa 02186',
-        premisa2:'Agencias BCP Costo adicional: S/.1.00.'
+      name: 'bcp',
+      premisa1: 'Agentes BCP Brinda el código de empresa 02186',
+      premisa2: 'Agencias BCP Costo adicional: S/.1.00.'
     },
     {
-        name:'interbank',
-        premisa1:'Agentes Interbank Brinda el siguiente código 273001',
-        premisa2:'Agencias Market de Interbank Costo adicional: S/.2.00.'
+      name: 'interbank',
+      premisa1: 'Agentes Interbank Brinda el siguiente código 273001',
+      premisa2: 'Agencias Market de Interbank Costo adicional: S/.2.00.'
     },
     {
-      name:'full carga',
-      premisa1:'Encuenta a FullCarga en Bodegas, Farmacias, cabinas de Internet y Locutorios.',
-      premisa2:''
+      name: 'full carga',
+      premisa1: 'Encuenta a FullCarga en Bodegas, Farmacias, cabinas de Internet y Locutorios.',
+      premisa2: ''
     }   
-  ]
+  ];
 
   var cardEfectivo = document.getElementsByClassName('card-efectivo');
 
   // var payContainer = document.getElementsByClassName('pay-method');
 
-  for( var i = 0;i<cardEfectivo.length;i++) {
+  for (var i = 0;i < cardEfectivo.length;i++) {
     // console.log(card.length);
     cardEfectivo[i].addEventListener('click', function() {
-        
-        for( var j = 0;j<dataEfectivo.length;j++) {
-            //console.log(data[j].pay);
-            if(this.getAttribute('alt') === dataEfectivo[j].name){
-                console.log(dataEfectivo[j].pay);
-                var element1 = document.createElement('p');
-                var element2 = document.createElement( 'p');
-                var node1 = document.createTextNode('(*)'+ dataEfectivo[j].premisa1);
-                var node2 = document.createTextNode('(*)' + dataEfectivo[j].premisa2);
+      for (var j = 0;j < dataEfectivo.length;j++) {
+        // console.log(data[j].pay);
+        if (this.getAttribute('alt') === dataEfectivo[j].name) {
+          console.log(dataEfectivo[j].pay);
+          var element1 = document.createElement('p');
+          var element2 = document.createElement('p');
+          var node1 = document.createTextNode('(*)' + dataEfectivo[j].premisa1);
+          var node2 = document.createTextNode('(*)' + dataEfectivo[j].premisa2);
 
-                element1.appendChild(node1);
-                element2.appendChild(node2);
+          element1.appendChild(node1);
+          element2.appendChild(node2);
                     
-                document.getElementById('cont-datos').innerHTML = '';
-                document.getElementById('cont-datos').appendChild(element1);
-                document.getElementById('cont-datos').appendChild(element2);
-              
-            }
-        
+          document.getElementById('cont-datos').innerHTML = '';
+          document.getElementById('cont-datos').appendChild(element1);
+          document.getElementById('cont-datos').appendChild(element2);
         }
-
-
-    })
-
+      }
+    });
   }
-
 });

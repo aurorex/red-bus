@@ -21,10 +21,10 @@
             <div class="row logo">
               <img src="assets/images/logo-pagoefectivo.svg"/> 
             </div>
-            <ul class="nav nav-tabs enlaces ">
+         <!--   <ul class="nav nav-tabs enlaces ">
                 <li class="active "><a data-toggle="tab" href="#banca_internet">Banca por internet</a></li>
                 <li class=""><a data-toggle="tab" href="#pago_efectivo">Pago en efectivo</a></li>
-            </ul>
+            </ul>-->
             <div class="row assets-pago">
               <div class="col-xs-4 text-center codigo">
                 <p>Código de pago</p>
@@ -50,7 +50,7 @@
         <main>
             <div class="tab-content">
                 <!-- vista 'banca por internet' -->
-                <div id="banca_internet" class="tab-pane fade in active">
+        <!--    <div id="banca_internet" class="tab-pane fade in active">-->
                     <div class="container">
                       <div class="row">
                         <div class="col-xs-12">
@@ -60,7 +60,7 @@
                       <div class="row">
                         <!--SLIDER-->
                         <div class=" cont-slider">
-                            <div class="slider" data-slick='{"slidesToShow":4 , "slidesToScroll":1 }' >
+                            <div id="slider" data-slick='{"slidesToShow":4 , "slidesToScroll":1 }' >
                                 <div class="item  sli-item ">
                                     <img class="card"  src="assets/images/bcp.png" alt="bcp">
                                     <span>BCP</span>
@@ -100,10 +100,10 @@
                           </div>
                       </div>
                     </div>
-                </div>
+              <!--  </div>-->
 
                 <!-- vista 'pago efectivo' -->
-                <div id="pago_efectivo" class="tab-pane fade">
+         <!--   <div id="pago_efectivo" class="tab-pane fade">-->
                     <div class="container">
                         <div class=" seleccion" >
                             <div>Selecciona donde quieres pagar</div>
@@ -111,7 +111,7 @@
                         <div class="row">
                         <!--SLIDER-->
                         <div class=" cont-slider">
-                                <div class="slider" data-slick='{"slidesToShow":4 , "slidesToScroll":1 }' >
+                                <div id="slider-cont" data-slick='{"slidesToShow":4 , "slidesToScroll":1 }'>
                                     <div class="item  sli-item ">
                                         <img class="card-efectivo" src="https://btpucp.pucp.edu.pe/wp-content/uploads/2012/07/logo-oficial-412x120.png" alt="bcp">
                                         <span>bcp</span>
@@ -138,16 +138,14 @@
                                     </div>
                                     <div class="item sli-item ">
                                         <img class="card-efectivo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Western_Union_logo.svg/2000px-Western_Union_logo.svg.png" alt="wester union">
-                                        <span>westernunion</span>
+                                        <span>kasnet</span>
                                     </div>
                                     <div class="item sli-item ">
                                         <img class="card-efectivo" src="http://www.agentekasnet.com/bitportal/Cms_Data/Sites/Kasnet/Files/Imagenes/Logo_Kasnet.png" alt="kasnet">
                                         <span>westernunion</span>
-                                      <!--  <img class="card-efectivo" src="http://www.etienreseller.com/wp-content/uploads/2017/06/banbif_pragmatico.png" alt="full carga">
-                                        <span>full carga</span>-->
-                                      </div>
+                                    </div>
                                 </div>
-                          </div>
+                        </div>
                         </div>
                         <div class="row">
                             <div class="instrucciones">
@@ -169,7 +167,7 @@
                             </div>
                         </div>
                   </div>
-               </div>
+              <!-- </div>-->
                <!-- MODAL IMPRIMIR -->
               <div class="modal fade" id="largeShoes" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">
               <div class="modal-dialog modal-lg">
