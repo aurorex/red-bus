@@ -139,7 +139,7 @@ console.log(show);*/
 
           element1.appendChild(node1);
           element2.appendChild(node2);
-                    
+
           document.getElementById('cont-datos').innerHTML = '';
           document.getElementById('cont-datos').appendChild(element1);
           document.getElementById('cont-datos').appendChild(element2);
