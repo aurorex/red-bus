@@ -39,11 +39,7 @@ Maquetar y dar funcionalidad a una página responsiva de confirmación de la pas
 * Como front-end developers la realización de la página de pasarela de pagos de  **Pago efectivo**.
 
 
-# Etapas DCU (Diseño Centrado en el Usuario)
-
-### A. Descubrimiento e Investigación.
-
-Actividades:
+#### Actividades de Investigación
 
 1. Formulación de las preguntas para la entrevista con usuarios y encuesta online.
 
