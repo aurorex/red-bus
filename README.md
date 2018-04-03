@@ -51,15 +51,13 @@ Actividades:
 
     1.2. Preguntas para la entrevista con usuarios. [Ver documento](https://docs.google.com/document/d/1UXy9qiQbRy-DGF_IcrX0-WtSGQSyRDqTr--_OCIeO5M/edit?usp=sharing)
 
-2. Entrevista con usuarios.
-
-3. Encuesta online a través de Google Forms.
+2. Encuesta online a través de Google Forms.
 
 * Recolección de datos de las respuestas dadas en la encuesta.
 
 ![Resultado de la Encuesta](public/assets/images/results-survey.png)
 
-* Conslusion de la encuesta:
+* Conclusión de la encuesta:
 
 Según datos recolectados en la encuesta, el 72.4% de los usuarios prefieren realizar su compra de boleto de viaje de manera presencial, mientras que el 27.6% de los usuarios prefiere hacerlo de manera online.
 Entonces, ¿Qué motivos influyen en la desición de los usuarios para optar comprar de manera presencial y no, de manera online?.
