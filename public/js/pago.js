@@ -8,39 +8,37 @@ $(document).ready(function() {
       alert('No tienes habilitada esta opción en el naveador.'); 
     } 
   });
+  
 
   // SLIDER 
-  $(function() { 
-    /* $('.slider').slick({
-      lazyLoad: 'ondemand',
-      // slidesToShow: 4,
-      slidesToScroll: 1
-    }); */ 
-    $('.slider').slick({
-      // the magic
-      responsive: [{
-    
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          // infinite: true
-        }
-      }, {
-    
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          // dots: true
-        }
-    
-      }, {
-    
-        breakpoint: 300,
-        settings: 'unslick' // destroys slick
-    
-      }]
-    // autoplaySpeed: 2000,
-    });
+  $('#slider').slick({
+
+    // normal options...
+    infinite: false,
+  
+    // the magic
+    responsive: [{
+  
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        infinite: true
+      }
+  
+    }, {
+  
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        // dots: true
+      }
+  
+    }, {
+  
+      breakpoint: 300,
+      // settings: "unslick" // destroys slick
+  
+    }]
   });
  
 
@@ -75,7 +73,7 @@ $(document).ready(function() {
   }
   imagenes();
   console.log(dataLogo);
-/* et show = dataLogo[0].url;
+  /* et show = dataLogo[0].url;
 console.log(show);*/
 
   // funcionalidad para mostrar informacion de pago
@@ -126,7 +124,7 @@ console.log(show);*/
 
   // var payContainer = document.getElementsByClassName('pay-method');
 
-  for( var i = 0;i<cardEfectivo.length;i++) {
+  for (var i = 0;i < cardEfectivo.length;i++) {
     // console.log(card.length);
     cardEfectivo[i].addEventListener('click', function() {
         
@@ -139,20 +137,14 @@ console.log(show);*/
                 var node1 = document.createTextNode(dataEfectivo[j].premisa1);
                 var node2 = document.createTextNode(dataEfectivo[j].premisa2);
 
-                element1.appendChild(node1);
-                element2.appendChild(node2);
+          element1.appendChild(node1);
+          element2.appendChild(node2);
                     
-                document.getElementById('cont-datos').innerHTML = '';
-                document.getElementById('cont-datos').appendChild(element1);
-                document.getElementById('cont-datos').appendChild(element2);
-              
-            }
-        
+          document.getElementById('cont-datos').innerHTML = '';
+          document.getElementById('cont-datos').appendChild(element1);
+          document.getElementById('cont-datos').appendChild(element2);
         }
-
-
-    })
-
+      }
+    });
   }
-
 });
