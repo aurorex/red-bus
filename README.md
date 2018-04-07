@@ -43,11 +43,7 @@ Maquetar y dar funcionalidad a una página responsiva de confirmación de la pas
 * Como front-end developers la realización de la página de pasarela de pagos de  **Pago efectivo**.
 
 
-# Etapas DCU (Diseño Centrado en el Usuario)
-
-### A. Descubrimiento e Investigación.
-
-Actividades:
+#### Actividades de Investigación
 
 1. Formulación de las preguntas para la entrevista con usuarios y encuesta online.
 
@@ -55,15 +51,11 @@ Actividades:
 
     1.2. Preguntas para la entrevista con usuarios. [Ver documento](https://docs.google.com/document/d/1UXy9qiQbRy-DGF_IcrX0-WtSGQSyRDqTr--_OCIeO5M/edit?usp=sharing)
 
-2. Entrevista con usuarios.
-
-3. Encuesta online a través de Google Forms.
+2. Encuesta online a través de Google Forms.
 
 * Recolección de datos de las respuestas dadas en la encuesta.
 
-![Resultado de la Encuesta](public/assets/images/results-survey.png)
-
-* Conslusion de la encuesta:
+* Conclusión de la encuesta:
 
 Según datos recolectados en la encuesta, el 72.4% de los usuarios prefieren realizar su compra de boleto de viaje de manera presencial, mientras que el 27.6% de los usuarios prefiere hacerlo de manera online.
 Entonces, ¿Qué motivos influyen en la desición de los usuarios para optar comprar de manera presencial y no, de manera online?.
@@ -75,34 +67,22 @@ De acuerdo a esto, se puede definir los siguientes **puntos de vista del usuario
 * Una interfaz amigable, sencilla y fácil de entender.
 * Realizar pagos mediante PagoEfectivo, para no poner su información bancaria.
 
-### B. Síntesis y Definición.
+[Ver resultados de la encuesta](https://drive.google.com/open?id=1ZoxueitllPX7No_306aBDTMeWlP7Pyj9)
 
-Actividades:
+[Ver ideación del user persona de acuerdo a la investigación](https://drive.google.com/file/d/19zj-UTnMAKGVf0a3yVAXR3KD43TLImcR/view?usp=sharing)
 
-1. Definir el problema:
+# Propuesta de diseño para la vista de impresión
 
-* Se utilizó como herramienta el Diagrama de Afinidad.
+![Ver vista de impresión](public/assets/img/pago.PNG)
 
-    * Paso 1.- En post-its se colocó datos obtenidos en la encuesta y entrevista (como: cosas que le gustaria que tuviesen a la hora de comprar por internet, que problemas tuvieron al adquirir pasaje de bus)
+# Producto: versión en inglés:
 
-    * Paso 2: Separar en grupos por temas.
-
-    * Paso 3: Priorizar los temas que se obtuvieron desde el punto de vista del usuario que nos permitiran dar una propuesta para el diseño de la pasarela de pagos y diseño de la vista de impresión.
-
-### C. Ideación.
-
-1. Definición del user persona.
-
-![user persona](public/assets/images/user-persona.png)
-
-2. Definición de los Problems Statements.
-
-3. Realización del Storyboard
-
-### Presentación final.
-
+[Ver producto en versión inglés](https://valeriavalles.github.io/RedBus-English/public/)
 
 # Herramientas utilizadas en el proyecto:
 
+* HTML.
+* CSS.
+* JavaScript.
 * Figma.
  -->

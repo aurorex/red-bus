@@ -6,9 +6,9 @@
 
 /* estilos para el header */
 .logo img{
-  width:130px ;
-  height:40px ;
-  margin : 20px 15px 30px 15px;
+  width:135px ;
+  height:45px ;
+  margin : 20px 0 20px 0;
 }
 
 .enlaces {
@@ -16,7 +16,7 @@
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-  color:rgb(250, 217, 68);
+  color:rgb(224, 170, 0);
 }
 
 .nav-tabs>li>a {
@@ -29,10 +29,10 @@
 .nav-tabs .active{
   border-radius: 4px 4px 0 0;
   border: 1px solid rgb(235, 203, 155);
-    border-top-color: rgb(235, 203, 155);
-    border-right-color: rgb(235, 203, 155);
-    border-bottom-color: rgb(235, 203, 155);
-    border-left-color: rgb(235, 203, 155);
+  border-top-color: rgb(235, 203, 155);
+  border-right-color: rgb(235, 203, 155);
+  border-bottom-color: rgb(235, 203, 155);
+  border-left-color: rgb(235, 203, 155);
 }
 
 .enlaces a{
@@ -57,43 +57,40 @@
 
 .monto{
   color:black;
-  background-color: rgb(228, 224, 224);
+  background-color: rgb(240, 236, 236);
   font-size: 12px;
+  padding: 10px 0;
 }
 
 .monto p{
   margin: 5px 5px 0 5px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .monto span{
   margin: 5px 0;
-  
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .codigo{
-  background:rgb(250, 217, 68);
+  background:rgb(224, 170, 0);
   color : white;
   /*font-size: 10px;*/
-  padding: 5px 0;
+  padding: 10px 0;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
- 
-
 }
 
 .codigo p{
   margin: 2px 5px 0 5px;
-  
   /*font-size: 10px;*/
 }
 
 .codigo span{
-   font-size:20px;
+  font-size:20px;
   font-weight: 600;
- /* font-size: 30px;*/
+  font-size: 25px;
   /*font-weight: bold;*/
 }
 
@@ -109,8 +106,8 @@
 }
 
 .time img{
-  width:20px ;
-  height:20px ;
+  width:30px ;
+  height:30px ;
   margin: 0 3px 0 0 ;
 }
 
@@ -123,19 +120,56 @@
 
 .time p{
   margin: 5px 0 0 0 ;
- /* font-size: 8px;*/
+ font-size: 10px;
   padding: 0;
 }
 
 .time span{
- /* font-size: 10px;*/
+  font-size: 11px;
 }
 
 /* estilos para el main */
-.paragraph{
-  color:gray;
-  margin: 20px 0 20px 0;
+main{
+  color: rgb(71, 70, 70);
+}
 
+.image0{
+  width: 10px ;
+  height: 30px ;
+  
+}
+
+.image1{
+  width: 70px ;
+  height: 25px ;
+}
+
+.image2{
+  width: 100px ;
+  height: 40px ;
+}
+
+.full-carga{
+  height:50px;
+  width: 20px;
+}
+
+.image3{
+  width: 100px ;
+  height: 40px ;
+}
+
+.paragraph{
+  margin: 20px 0 20px 0;
+  color: rgb(71, 70, 70);
+}
+
+#pay-method{
+  height: 50px;
+}
+
+#cont-datos{
+  height: 100px;
 }
 
 .carousel.slide{
@@ -147,28 +181,38 @@
   list-style: none;
 }
 
-#pay-method{
-  display:inline;
+h4{
+  color: rgb(224, 170, 0);
+  font-weight: bold;
+}
+
+.paragraph2{
+  color: rgb(71, 70, 70);
   text-align: justify;
+  margin: 10px 0 0 0;
+  color: rgb(71, 70, 70);
 }
 
 .options-pay li>span{
-  border-radius: 50%;
-  border: 1px solid rgb(252, 238, 40);
-  color: rgb(252, 238, 40);
+  color: rgb(224, 170, 0);
   padding: 5px ;
-  margin: 0 3px;
+  /* margin: 0 0 20px 0; */
 }
 
 .options-pay li{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
   margin: 20px 2px;
-  text-align: justify;
   font-size:12px;
 }
 
-/* estilos para el footer */
+.card-efectivo, .card{
+  cursor: pointer;
+}
+
 .enlace{
-  background:rgb(131, 17, 83);
+  background:rgb(165, 40, 57);
   border-radius: 10px;
   padding:5px 0;
 }
@@ -184,6 +228,7 @@
   margin:0 5px;
 }
 
+/* estilos para el footer */
 .download{
   margin: 20px 0 10px 0;
   text-align: center;
@@ -192,10 +237,11 @@
 .download img{
   width:45px;
   height:45px;
-  border: 1px solid rgb(252, 238, 40);
+  border: 1px solid rgb(224, 170, 0);
   border-radius:10px;
   padding: 5px 10px;
   margin:0 5px;
+  cursor: pointer;
 }
 
 .mail{
@@ -208,7 +254,7 @@
 }
 
 .mail a{
-  color: rgb(253, 205, 46);
+  color: rgb(224, 170, 0);
 }
 
 .image{
@@ -225,10 +271,6 @@
   height: 30px;
 }
 
-footer{
-  /* outline: 1px solid red; */
-  
-}
 
 @media (min-width:790px) { 
   .referencies{
@@ -248,10 +290,15 @@ footer{
   .image{
     float: right;
   }
-
-
 }
+
 @media (min-width:968px){
+  .monto{
+    padding: 5px;
+  }
+  .monto span{
+    font-size: 18px;
+  }
   .codigo span{
     /* font-size:20px;*/
     font-weight: 600;
@@ -263,4 +310,56 @@ footer{
     font-weight: 600;
     font-size: 25px;
   }
+
+  .time p{
+    margin: 5px 0 0 0 ;
+   font-size: 15px;
+    padding: 0;
+  }
+  
+  .time span{
+    font-size: 18px;
+    text-align: center
+  }
+
+  .time img{
+    width:40px ;
+    height:40px ;
+    margin: 0 3px 0 20px ;
+  }
+
+  .download{
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    text-align: start;
+  }
+
+  .download img{
+    width:50px;
+    height:50px;
+  
+  }
+
+  .mail{
+    margin: 30px 0 0 0;
+    font-size: 15px;
+  }
+  .mail a{
+    display: inline;
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .image{
+    font-size: 15px;
+  }
+
+  .image img{
+    display:inline-block;
+    margin: 0 0 0 5px;
+    width: 90px;
+    height: 80px;
+  }  
 }
+
+
