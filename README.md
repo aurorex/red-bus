@@ -1,8 +1,12 @@
-# Reto: redBus
+# RedBus
+Proyecto basado en la pasarela de pago para la compra de pasajes de viajes Redbus. Esta pasarela te ofrece dos modalidades sencillas de realizar tu compra: Pago efectivo y Banca por internet 
 
-![redBus y PagoEfectivo Logo](public/assets/images/logo.png)
+![redBus](public/assets/images/redbus.png)
 
-## Desarrollado para:
+## Desarrollado para 
+[Redbus](https://www.redbus.pe)
+
+<!-- ## Desarrollado para:
 
 [redBus](https://www.redbus.pe/?gclid=Cj0KCQjw1q3VBRCFARIsAPHJXrGzAVAAdvy-nKOu0Ycw_-7JY8ivaR8AD41k9GdZER_Kqdn-lQGeRaMaAjRVEALw_wcB)
 
@@ -101,3 +105,4 @@ Actividades:
 # Herramientas utilizadas en el proyecto:
 
 * Figma.
+ -->
