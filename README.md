@@ -1,7 +1,7 @@
 # RedBus
 Proyecto basado en la pasarela de pago para la compra de pasajes de viajes Redbus. Esta pasarela te ofrece dos modalidades sencillas de realizar tu compra: Pago efectivo y Banca por internet 
 
-![redBus](public/assets/images/redbus.png)
+![redBus](https://user-images.githubusercontent.com/29168733/38452080-4cb90c18-3a02-11e8-9c7e-141aae51b9f7.png)
 
 ## Desarrollado para 
 [Redbus](https://www.redbus.pe)
