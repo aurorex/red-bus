@@ -4,7 +4,7 @@ Proyecto basado en la pasarela de pago para la compra de pasajes de viajes Redbu
 ![redBus](https://user-images.githubusercontent.com/29168733/38452035-bdc2a894-3a00-11e8-83a8-611c332b374e.png)
 
 ## Desarrollado para 
-[Redbus](https://www.redbus.pe)
+[Laboratoria](http://laboratoria.la)
 
 <!-- ## Desarrollado para:
 
